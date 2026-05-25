@@ -137,5 +137,5 @@ MIT License © 2026
 
 # ⭐ Check out Snap Picker on pub.dev and GitHub:
 
-📦 https://pub.dev/packages/snap_picker
+📦 https://pub.dev/packages/snap_picker <br>
 💻 https://github.com/Sakshi-2508/snap_picker
