@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
+import 'snap_picker_theme.dart';
 
 class SnapPickerGallery extends StatefulWidget {
   final bool allowMultiple;
@@ -162,7 +163,7 @@ class _SnapPickerGalleryState extends State<SnapPickerGallery> {
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
                                       color: selected
-                                          ? Colors.black.withOpacity(0.22)
+                                          ? Colors.black.withValues(alpha: 0.22)
                                           : Colors.transparent,
                                       border: Border.all(
                                         color: selected
@@ -185,8 +186,8 @@ class _SnapPickerGalleryState extends State<SnapPickerGallery> {
                                       decoration: BoxDecoration(
                                         shape: BoxShape.circle,
                                         color: selected
-                                            ? Colors.black
-                                            : Colors.white.withOpacity(0.75),
+                                            ? Colors.black.withValues(alpha: 0.22)
+                                            : Colors.white.withValues(alpha: 0.75),
                                       ),
                                       child: selected
                                           ? Center(
