@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
-import 'snap_picker_theme.dart';
+
 
 class SnapPickerGallery extends StatefulWidget {
   final bool allowMultiple;
