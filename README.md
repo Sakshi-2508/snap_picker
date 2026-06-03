@@ -12,18 +12,23 @@
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-* 📸 Custom Gallery Picker
-* 🎥 Camera Support
-* 🖼️ Multi Image Selection
-* ✨ Smooth Animations
-* 🔍 Full Screen Image Preview
-* 🔄 Swipe Between Images
-* 🤏 Zoom Support
-* 🗑️ Remove Selected Images
-* 📤 Upload Progress UI
-* 🎨 Modern Premium UI
+- 📸 Custom Gallery Picker
+- 🎞️ Video Support
+- 🎥 Camera Support
+- 🖼️ Multi Image Selection
+- 📱 Draggable Bottom Sheet
+- ✨ Smooth Selection Animation
+- 🔍 Full Screen Image Preview
+- 🤏 Zoom Support
+- 🔄 Swipe Preview
+- 🗑️ Remove Selected Images
+- 📤 Upload Progress UI
+- ✅ Upload Success State
+- 🎨 Modern Premium UI
+- 🌙 Dark Mode Friendly
+
 
 ---
 
@@ -33,7 +38,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  snap_picker: ^0.0.1
+    snap_picker: ^1.1.0
 ```
 
 Then run:
@@ -106,7 +111,6 @@ Snap Picker focuses on:
 
 # 🔥 Upcoming Features
 
-* 🎞️ Video Support
 * 🫧 Gooey Selection Animation
 * 🔄 Reorder Images
 * 📂 Album Selector
